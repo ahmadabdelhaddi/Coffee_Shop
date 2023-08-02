@@ -72,7 +72,7 @@ header nav ul button {
 
 /* Start Home Section */
 .home__section {
-  background-image: url(../../assets/images/coffe_slider1.jpg);
+  background-image: url(../images/coffe_slider1.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -239,7 +239,7 @@ section img {
 
 .menu__image {
   color: white;
-  background-image: url(../images/coffe_slider.png);
+  background-image: url(../images/coffe_slider.png) !important;
   min-width: 100%;
   height: auto;
   background-size: cover;
