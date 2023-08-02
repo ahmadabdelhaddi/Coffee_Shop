@@ -244,6 +244,7 @@ section img {
 }
 
 .buy__now {
+  color: black !important ;
 }
 .buy__now:hover {
   color: white;
