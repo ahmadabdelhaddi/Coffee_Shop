@@ -228,6 +228,29 @@ section img {
   height: 60px;
   border-radius: 0px 0px 16px 16px;
 }
+
+/* menu products */
+.product_name {
+  margin-top: 10px;
+  font-weight: bold;
+}
+.product_price {
+  font-weight: bold;
+  color: white;
+}
+.product_price:hover {
+  color: #c7a17a;
+  cursor: pointer;
+}
+
+.buy__now {
+}
+.buy__now:hover {
+  color: white;
+  background-color: #171717;
+  transition: 0.3s;
+  cursor: pointer;
+}
 /* end products */
 
 /* Start feature */
@@ -280,7 +303,6 @@ section img {
 
 .menu__image .row .menu__product img:hover {
   /* border: 1px solid bisque; */
-  box-shadow: 20px 20px 50px #ffffff;
 }
 
 .btn__seeAllMenu {
