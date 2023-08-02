@@ -247,7 +247,7 @@ section img {
   color: black !important ;
 }
 .buy__now:hover {
-  color: white;
+  color: white !important;
   background-color: #171717;
   transition: 0.3s;
   cursor: pointer;
