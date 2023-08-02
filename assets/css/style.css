@@ -15,11 +15,13 @@
 }
 /* End Root */
 
-/* body{
-    display: grid;
-    grid-template-columns: repeat(12,1fr);
-    grid-template-rows: repeat(8,1fr);
-    /* grid-template-areas: "header header header header header header header header"; */
+h1,
+h4,
+h2,
+h3,
+h5 {
+  font-weight: bolder !important ;
+}
 
 /*  Start Nav Bar*/
 
@@ -36,7 +38,7 @@ ul {
   display: flex;
 }
 ul li {
-  color: var(--color-primery);
+  color: black;
   margin-right: 50px;
 }
 
@@ -47,7 +49,7 @@ header nav ul button {
   border-radius: 32px;
   border: none;
   list-style: none;
-  background: linear-gradient(90deg, #113d56 -1.79%, #2d739b 98.99%);
+  background: linear-gradient(90deg, #c7a17a -1.79%, #c7a17a 98.99%);
   color: var(--color-white);
 }
 
@@ -70,34 +72,57 @@ header nav ul button {
 
 /* Start Home Section */
 .home__section {
+  background-image: url(../../assets/images/coffe_slider1.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home_blackImg {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 70%);
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  min-height: 100vh;
-  background-image: url(../../assets/images/coffe_slider.png);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
-
 .home__section h1 {
   color: white;
   font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
 }
 .home__section .buttons button:nth-child(1) {
   border: none;
-  padding: 10px 20px;
+  padding: 5px 40px;
   border-radius: 6px;
   text-align: center;
+  background-color: #ffffff;
+}
+
+.home__section .buttons button:nth-child(1):hover {
+  background-color: #c7a17a;
+  transition: 0.5s;
 }
 
 .home__section .buttons button:nth-child(2) {
+  background-color: #c7a17a;
   border: none;
-  padding: 10px 20px;
+  padding: 5px 40px;
   border-radius: 6px;
   text-align: center;
   background-color: none;
 }
+
+.home__section .buttons button:nth-child(2):hover {
+  background-color: #c7a17a;
+  transition: 0.5s;
+}
+
+.btn {
+  text-decoration: none;
+}
+
 /* End Home */
 
 /* about section*/
@@ -114,16 +139,7 @@ header nav ul button {
   text-justify: inter-word;
 }
 
-/*  */
-
-/* main {
-  background-image: url(images/hero_section.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-} */
-
-/* End Hero Section */
+/* End about Section */
 
 /* Start Services */
 
@@ -208,20 +224,75 @@ section img {
 /* Image */
 
 .image__pattern {
-  max-width: 100%;
+  min-width: 100%;
+  height: 310px;
   object-fit: cover;
   filter: grayscale(40%);
 }
-
-/* #image_parent::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-color: rgb(20, 18, 18);
-  opacity: 50%;
-} */
+.image__pattern img {
+  background-color: rgba(0, 0, 0, 80%);
+}
 
 /* End image */
+
+/* Start Menu */
+
+.menu__image {
+  color: white;
+  background-image: url(../images/coffe_slider.png);
+  min-width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 !important;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.black__image {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 70%);
+}
+
+.menu__image .row .menu__productL img:hover {
+  border: 2px solid bisque;
+}
+
+.btn__seeAllMenu {
+  padding: 5px 16px;
+  border-radius: 16px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #c7a17a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* End Menu */
+
+/* contact us  */
+
+form label {
+  margin-top: 10px;
+}
+
+.sub__btn {
+  width: 100px;
+}
+
+form input,
+textarea {
+  padding: 5px 5px;
+  text-align: start;
+}
+
+form button {
+  border: none;
+  text-decoration: none;
+  border-radius: 6px;
+  background-color: #c7a17a;
+  padding: 10px;
+}
+/* contact us */
