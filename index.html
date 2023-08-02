@@ -5,8 +5,15 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Shop Coffee</title>
+  <title>Bean Haven cafe</title>
   <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- meta keyword -->
+  <meta name="keywords" content="bean haven , coffee , coffee shop ">
+
+  <!-- meta description -->
+  <meta name="description"
+    content="Bean Haven Coffee Shop's story began with a passion for exceptional coffee and a dream of creating a welcoming haven for coffee enthusiasts">
 
   <!-- bootsrap -->
 
@@ -18,127 +25,64 @@
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <style>
-    * {
-      padding: 0;
-      margin: 0;
-      box-sizing: border-box;
-    }
-
-    .item__info {
-      border-radius: 32px;
-      background-color: #fff7ed;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-    }
-
-    .item__info img {
-      width: 50%;
-    }
-
-    .item__info button {
-      border: none;
-      background-color: none;
-      width: 100%;
-      height: 50px;
-      border-bottom-left-radius: 32px;
-      border-bottom-right-radius: 32px;
-    }
-
-    .buy_now {
-      background-color: #c7a17a !important;
-    }
-  </style>
-</head>
+  <link rel="icon" type="image/png"
+    href="https://media.discordapp.net/attachments/1085092854143123457/1136356658629582918/pngwing.com_60.png?width=622&height=670" />
 
 <body>
-  <!-- Nav bar ################################# -->
-  <!-- <header>
-    <img src="./assets/images/logo.png" width="120px" alt="logo" />
-
-    <nav>
-      <ul class="m-0 p-0">
-        <li>Home</li>
-        <li>Services</li>
-        <li>Feactures</li>
-        <li>About</li>
-        <button>Contact</button>
-        <li class="menu_navbar"><i class="fa-solid fa-bars"></i></li>
-      </ul>
-    </nav>
-  </header> -->
-
-  <!-- End Nav bar ################################# -->
 
 
+  <!-- start Hero Section ################################## -->
 
-
-
-
-
-  <!-- Start Hero Section ################################# -->
-
-  <!-- <div id="carouselExampleFade" class="carousel slide carousel-fade">
-
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="./assets/images/sliderrrr.png" class="d-block w-100" alt="..." />
-        </div>
-      </div>
-      
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleFade"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleFade"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div> -->
-    <header>
-      <img src="./assets/images/Bean__Haven__logo.png" width="120px" alt="logo" />
-  
-      <nav>
-        <ul class="m-0 p-0">
-          <li>Home</li>
-          <li>Services</li>
-          <li>Feactures</li>
-          <li>About</li>
-          <button>Shop Now</button>
-          <li class="menu_navbar"><i class="fa-solid fa-bars"></i></li>
-        </ul>
-      </nav>
-    </header>
   <div class="home__section">
-   
+
     <div class="home_blackImg">
 
+      <nav class="navbar navbar-expand-md custom_navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/loogo.png" class="logo" alt="Coffe-logo" />
+          </a>
+          <button class="navbar-toggler btstrap-btn " type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-muted btstrap">
+            </span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end text-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link navbar__ul text-white" href="#about">About</a>
+              </li>
 
+              <li class="nav-item">
+                <a class="nav-link navbar__ul text-white" href="#best_selling">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__ul text-white" href="#menu__section">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__ul text-white" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar__ul text-white" href="#contact_us">Contact Us</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
 
 
       <div>
-    <h1>Welcome to Bean Haven Coffee Shop</h1>
-        
+        <h1>Welcome to Bean Haven Coffee Shop</h1>
+
       </div>
 
-    <div class="buttons">
+      <div class="buttons mt-4">
 
-      <button ><a class="btn" href="#menu__section">See Menu</a></button>
-      <button ><a class="btn" href="#about">Top Product</a></button>
+        <button><a class="btn" href="#menu__section">See Menu</a></button>
+        <button><a class="btn" href="#about">Top Product</a></button>
+      </div>
     </div>
-  </div>
 
   </div>
   <!-- End Hero Section ################################## -->
@@ -152,11 +96,16 @@
       <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
         <h1 style="color: #c7a17a;" class="text-lg-start text-center">About Us</h1>
         <p>
-         Bean Haven Coffee Shop's story began with a passion for exceptional coffee and a dream of creating a welcoming haven for coffee enthusiasts. We source the finest beans, work with ethical farmers, and craft each cup with care. Our mission is to bring people together through the love of coffee, fostering a sense of community and belonging. With a commitment to sustainability, we aim to be more than just a coffee shop – a place where you can relax, connect, and savor the moments that matter. Join us in this journey of coffee exploration and community building.
+          Bean Haven Coffee Shop's story began with a passion for exceptional coffee and a dream of creating a welcoming
+          haven for coffee enthusiasts. We source the finest beans, work with ethical farmers, and craft each cup with
+          care. Our mission is to bring people together through the love of coffee, fostering a sense of community and
+          belonging. With a commitment to sustainability, we aim to be more than just a coffee shop – a place where you
+          can relax, connect, and savor the moments that matter. Join us in this journey of coffee exploration and
+          community building.
         </p>
       </div>
       <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-        <img src="./assets/images/about__img.png" class="img-fluid" alt="">
+        <img src="./assets/images/about__img.png" class="img-fluid" alt="About Us">
       </div>
     </div>
   </div>
@@ -174,17 +123,17 @@
     <div class="row d-flex justify-content-center align-items-center gy-4">
       <div class="col-12 col-lg-3 col-md-6 col-sm-12">
         <div class="card-st">
-          <img src="./assets/images/coffee.png" alt="test" />
-          <p>Morning Bliss Blend</p>
+          <img src="./assets/images/coffee.png" alt="Morning Bliss Blend Coffee" />
+          <p>Morning Bliss Blend || Coffee 5.0 </p>
           <p>⭐⭐⭐⭐⭐</p>
 
-          
+
           <button>Buy Now</button>
         </div>
       </div>
       <div class="col-12 col-lg-3 col-md-6 col-sm-12">
         <div class="card-st">
-          <img src="./assets/images/4.png" alt="test" />
+          <img src="./assets/images/4.png" alt="Java Jolt Roast" />
           <p>Java Jolt Roast || Coffee 5.0 </p>
           <p>⭐⭐⭐⭐⭐</p>
 
@@ -193,7 +142,7 @@
       </div>
       <div class="col-12 col-lg-3 col-md-6 col-sm-12">
         <div class="card-st">
-          <img src="./assets/images/5.png" alt="test" />
+          <img src="./assets/images/5.png" alt="Espresso Euphoria" />
           <p>Espresso Euphoria || Coffee 5.0 </p>
           <p>⭐⭐⭐⭐⭐</p>
 
@@ -202,7 +151,7 @@
       </div>
       <div class="col-12 col-lg-3 col-md-6 col-sm-12">
         <div class="card-st">
-          <img src="./assets/images/5.png" alt="test" />
+          <img src="./assets/images/7.png" alt="Mocha Madness Mix" />
           <p>Mocha Madness Mix || Coffee 5.0 </p>
           <p>⭐⭐⭐⭐⭐</p>
 
@@ -217,80 +166,80 @@
 
 
   <!-- Start Menu -->
-  <div  id = "menu__section"  class="container menu__image" >
-    
+  <div id="menu__section" class="container menu__image">
+
     <div class="black__image">
 
-    <div class="row text-center">
-      <div class="col-12 col-lg-12 col-md-12 col-sm-12">
-        <h1 style="color: #c7a17a;" class="mt-2">Discover All Menu</h1>
-        <p>Explore a variety of enticing coffee options with our all-encompassing menu.</p>
+      <div class="row text-center">
+        <div class="col-12 col-lg-12 col-md-12 col-sm-12 mt-5">
+          <h1 style="color: #c7a17a;" >Discover All Menu</h1>
+          <p>Explore a variety of enticing coffee options with our all-encompassing menu.</p>
+        </div>
       </div>
+      <div class="row text-center">
+        <div class="menu__product col-12 col-lg-3 col-md-4 col-sm-6">
+          <img src="./assets/images/item1 1.png" alt="Americano">
+          <h6>Americano</h6>
+          <p>price : 4$</p>
+        </div>
+
+
+        <div class="menu__product col-12 col-lg-3 col-md-4 col-sm-6">
+          <img src="./assets/images/item2.png" alt="Drip Coffee">
+          <h6>Drip Coffee</h6>
+          <p>price : 3$</p>
+        </div>
+
+
+        <div class="menu__product col-12 col-lg-3 col-md-4 col-sm-6">
+          <img src="./assets/images/item3.png" alt="Latte">
+          <h6>Latte</h6>
+          <p>price : 5$</p>
+        </div>
+
+
+        <div class="menu__product col-12 col-lg-3 col-md-4 col-sm-6">
+          <img src="./assets/images/item4.png" alt="Cappuccino">
+          <h6>Cappuccino</h6>
+          <p>price : 3$</p>
+        </div>
+
+        <div class="menu__product col-12 col-lg-3 col-md-4 col-sm-6">
+          <img src="./assets/images/item5.png" alt="Mochaa">
+          <h6>Mochaa</h6>
+          <p>price : 11$</p>
+        </div>
+
+
+        <div class="menu__product col-12 col-lg-3 col-md-4 col-sm-6">
+          <img src="./assets/images/item6.png" alt="Flat White">
+          <h6>Flat White</h6>
+          <p>price : 7$</p>
+        </div>
+
+
+        <div class="menu__product col-12 col-lg-3 col-md-4 col-sm-6">
+          <img src="./assets/images/item1 1.png" alt="Irish Coffee">
+          <h6>Irish Coffee</h6>
+          <p>price : 5$</p>
+        </div>
+
+
+        <div class="menu__product col-12 col-lg-3 col-md-4 col-sm-6">
+          <img src="./assets/images/item1 1.png" alt="Cold Brew Coffee">
+          <h6>Cold Brew Coffee</h6>
+          <p>price : 9$</p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="menu__product col-12 col-lg-12 col-md-12 col-sm-12 text-center">
+
+          <button class="btn__seeAllMenu">See All Menu</button>
+        </div>
+      </div>
+
     </div>
-    <div class="row text-center">
-      <div class="menu__product col-12 col-lg-3 col-md-4 col-sm-6">
-        <img src="./assets/images/item1 1.png" alt="">
-        <h6>Americano</h6>
-        <p>price : 4$</p>
-      </div>
-
-
-      <div class="menu__product col-12 col-lg-3 col-md-4 col-sm-6">
-        <img src="./assets/images/item2.png" alt="">
-        <h6>Drip Coffee</h6>
-        <p>price : 3$</p>
-      </div>
-
-
-      <div class="menu__product col-12 col-lg-3 col-md-4 col-sm-6">
-        <img src="./assets/images/item3.png" alt="">
-        <h6>Latte</h6>
-        <p>price : 5$</p>
-      </div>
-
-
-      <div class="menu__product col-12 col-lg-3 col-md-4 col-sm-6">
-        <img src="./assets/images/item4.png" alt="">
-        <h6>Cappuccino</h6>
-        <p>price : 3$</p>
-      </div>
-
-      <div class="menu__product col-12 col-lg-3 col-md-4 col-sm-6">
-        <img src="./assets/images/item5.png" alt="">
-        <h6>Mochaa</h6>
-        <p>price : 20$</p>
-      </div>
-
-
-      <div class="menu__product col-12 col-lg-3 col-md-4 col-sm-6">
-        <img src="./assets/images/item6.png" alt="">
-        <h6>Flat White</h6>
-        <p>price : 20$</p>
-      </div>
-
-
-      <div class="menu__product col-12 col-lg-3 col-md-4 col-sm-6">
-        <img src="./assets/images/item1 1.png" alt="">
-        <h6>Name of Caffeh</h6>
-        <p>price : 20$</p>
-      </div>
-
-
-      <div class="menu__product col-12 col-lg-3 col-md-4 col-sm-6">
-        <img src="./assets/images/item1 1.png" alt="">
-        <h6>Name of Caffeh</h6>
-        <p>price : 20$</p>
-      </div>
-    </div>
-
-<div class="row">
-  <div class="menu__product col-12 col-lg-12 col-md-12 col-sm-12 text-center">
-    
-    <button class="btn__seeAllMenu">See All Menu</button>
-  </div>
-</div>
-  
-  </div>
 
   </div>
   <!-- End Menu -->
@@ -298,7 +247,7 @@
 
 
   <!-- Start feature Section ---------------------------------------------------------- -->
-  <div id="pricing" class="container mt-5 mb-5">
+  <div id="features" class="container mt-5 mb-5">
 
 
 
@@ -307,7 +256,7 @@
         <h1 style="color: #c7a17a;" class="mt-2">Why Bean Heaven Shop ?</h1>
         <p>
           Bean Heaven Shop was chosen to reflect our commitment to providing a heavenly coffee experience
-</p>
+        </p>
       </div>
 
 
@@ -316,22 +265,24 @@
 
     <div class="row text-center">
       <div class=" feature col-12 col-lg-3 col-md-6 col-sm-12">
-        <img src="./assets/images/coffee-beans 1.png" alt="" />
+        <img src="./assets/images/coffee-beans 1.png" alt="High Qualit" />
         <h4 class="mt-2">High Qualit</h1>
           <p>
-            Our coffee is made from the finest beans, carefully selected and expertly roasted, ensuring a rich and flavorful experience.
+            Our coffee is made from the finest beans, carefully selected and expertly roasted, ensuring a rich and
+            flavorful experience.
 
           </p>
       </div>
       <div class=" feature  col-12 col-lg-3 col-md-6 col-sm-12">
-        <img src="./assets/images/coffee-cup 1.png" alt="" />
+        <img src="./assets/images/coffee-cup 1.png" alt="Expertly Crafted" />
         <h4 class="mt-2">Expertly Crafted</h1>
           <p>
-            Our skilled baristas take pride in preparing each cup with precision and care, creating coffee that is a work of art.
+            Our skilled baristas take pride in preparing each cup with precision and care, creating coffee that is a
+            work of art.
           </p>
       </div>
       <div class=" feature col-12 col-lg-3 col-md-6 col-sm-12">
-        <img src="./assets/images/badge 1.png" alt="" />
+        <img src="./assets/images/badge 1.png" alt="Warm Ambiance" />
         <h4 class="mt-2">Warm Ambiance</h1>
           <p>
             Our cozy and inviting atmosphere provides a welcoming space to relax and enjoy your coffee in Bean Heaven.
@@ -339,10 +290,11 @@
           </p>
       </div>
       <div class=" feature col-12 col-lg-3 col-md-6 col-sm-12">
-        <img src="./assets/images/stars.png" alt="" />
+        <img src="./assets/images/stars.png" alt="Unique Flavors" />
         <h4 class="mt-2">Unique Flavors</h1>
           <p>
-            Explore a diverse range of coffee flavors, from bold and robust to smooth and creamy, there's something for every taste.
+            Explore a diverse range of coffee flavors, from bold and robust to smooth and creamy, there's something for
+            every taste.
 
           </p>
       </div>
@@ -356,132 +308,85 @@
 
   <!-- Start image Section #################################-->
   <div id="image_parent">
-    <img src="./assets/images/image__pattern.jpg" class="image__pattern" alt="">
+    <img src="./assets/images/image__pattern3.png" style="background-color: rgba(0, 0, 0, 80%);" class="image__pattern" alt="coffe-patternImg">
   </div>
   <!-- End image Section #################################-->
 
 
   <!-- Start Contact Section  -->
+  <div id="contact_us" class="  container ">
 
-<div class="container">
+    <div class="row text-center mt-5">
 
-  <div class="row text-center mt-5">
+      <div class="col">
+        <h1 style="color: #c7a17a;">Let’s stay connected</h1>
+        <p>
+          Call us, use our live chat widget or email and we'll get back to you
+          as soon as possible!
+        </p>
+      </div>
 
-    <div class="col">
-      <h1 style="color: #c7a17a;">Let’s stay connected</h1>
-      <p>
-        Call us, use our live chat widget or email and we'll get back to you
-        as soon as possible!
-      </p>
     </div>
+    <div class="row text-center mt-3">
+      <div class=" feature col-12 col-lg-4 col-md-4 col-sm-12">
+        <img src="./assets/images/email.png" alt="Email" />
+        <h5 class="mt-2">Email</h1>
+          <p>
+            beanhaven@coffee.com
+          </p>
+      </div>
+      <div class=" feature  col-12 col-lg-4 col-md-4 col-sm-12">
+        <img src="./assets/images/phone.png" alt="Phone" />
+        <h5 class="mt-2">Phone</h1>
+          <p>
+            +962 796618504
+          </p>
+      </div>
+      <div class=" feature col-12 col-lg-4 col-md-4 col-sm-12">
+        <img src="./assets/images/location.png" alt="location" />
+        <h5 class="mt-2">Location</h1>
+          <p>
+            Jordan , Amman Hikmat Alsafadi St A2 .
+          </p>
+      </div>
+
+    </div>
+
+
 
   </div>
-  <div class="row text-center mt-3">
-    <div class=" feature col-12 col-lg-4 col-md-4 col-sm-12">
-      <img src="./assets/images/email.png" alt="" />
-      <h5 class="mt-2">Email</h1>
-        <p>
-          beanhaven@coffee.com
-        </p>
-    </div>
-    <div class=" feature  col-12 col-lg-4 col-md-4 col-sm-12">
-      <img src="./assets/images/phone.png" alt="" />
-      <h5 class="mt-2">Phone</h1>
-        <p>
-          +962 796618504
-        </p>
-    </div>
-    <div class=" feature col-12 col-lg-4 col-md-4 col-sm-12">
-      <img src="./assets/images/location.png" alt="" />
-      <h5 class="mt-2">Location</h1>
-        <p>
-          Jordan , Amman Hikmat Alsafadi St A2 .
-        </p>
-    </div>
-  
-  </div>
-
-
-
-</div>
-
-
-
-
-<div id="about" class="container">
-  <div class="row d-flex justify-content-center align-items-center">
-    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-      <form action="" class="d-flex flex-column text-lg-start text-center ">
+  <div id="about" class="container">
+    <div class="row d-flex justify-content-center align-items-center">
+      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+        <form action="" class="d-flex flex-column text-lg-start text-center ">
           <label for="name">Name:</label>
           <input type="text" id="name" name="name" required placeholder="Your name here"><br>
-      
+
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required  placeholder="Your email here"><br>
-      
+          <input type="email" id="email" name="email" required placeholder="Your email here"><br>
+
           <label for="subject">Subject:</label>
           <input type="text" id="subject" name="subject" required placeholder="Your subject here"><br>
-      
+
           <label for="message">Message:</label>
-          
+
           <textarea id="message" name="message" rows="2" required placeholder="Your message here"></textarea><br>
-      
+
           <button type="submit">Submit</button>
         </form>
-      
-       
-    </div>
-    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mt-3">
-      <img src="./assets/images/contact__us.jpg" class="img-fluid" alt="">
+
+
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mt-3">
+        <img src="./assets/images/contact__us2.jpg" class="img-fluid" alt="pattern coffee">
+      </div>
     </div>
   </div>
-</div>
+  <!-- End contact us  -->
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- End Comntact Section  -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- Start Footer #################################-->
-  <footer class="text-center text-lg-start bg-light text-muted">
+  <!-- Start Footer -->
+  <footer class="text-center text-lg-start bg-light text-muted animate__animated animate__fadeInDown">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 
@@ -541,7 +446,7 @@
               <a href="#best_selling" class="text-reset">Best Selling</a>
             </p>
             <p>
-              <a href="#pricing" class="text-reset">Pricing</a>
+              <a href="#features" class="text-reset">features</a>
             </p>
             <p>
               <a href="#menu" class="text-reset">Menu</a>
@@ -575,12 +480,13 @@
     </div>
     <!-- Copyright -->
   </footer>
-  <!-- End Footer   #################################-->
-
+  <!-- End Footer-->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
+
+
 </body>
 
 </html>
